@@ -1,7 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    padding-bottom: 500px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 0;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+}
+aside{
+    width: 16%;
+    float: left;
+    padding: 4px;
+    text-align: right;
+}
+main{
+    width: 80%;
+    float: right;
+    padding: 4px;
+}
+
+.quebra{
+    clear: both;
+}
+#foto{
+    width: 100px;
+    height: 100px;
+    background-color: #666666;
+    margin: 0 auto;
+}
+h2{
+    font-size: 14px;
+    text-align: center;
+
+}
+nav{
+    margin: 4px 0;
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
 }
 h3{
-    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    margin-top: 18px;
+    border-top: solid 3px #cccccc;
 }
-/* F38 Multiplos arquivos de CSS*/
+p{
+    margin: 18px 0;
+}
+.destaque-vermelho{
+    color: #cc0000;
+}
+.job{
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc;
+    float: left;
+    margin: 4px;
+}
+li{
+    margin: 8px 0;
+}
