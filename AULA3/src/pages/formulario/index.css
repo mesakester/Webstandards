@@ -1,0 +1,9 @@
+body{
+    padding: 50px;
+}
+
+.faixa-1{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+}

@@ -1,0 +1,22 @@
+body{
+    padding: 100px;
+}
+
+.container{
+    background-color: cornflowerblue;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container p{
+    background-color: blueviolet;
+    padding: 15px;
+    color: #fff;
+}
+.aumentar{
+    flex-grow: 1;
+}
